@@ -1,0 +1,32 @@
+.sp-row{
+    display: flex;
+    justify-content: space-between;
+}
+.sp-col-6{
+    width: 50%;
+}
+.sp-paragraph{
+    margin-bottom: 0px;
+}
+.sp-order-calculation{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    padding: 0px 10px;
+}
+.input-wrapper.quantity-input{
+    padding: 0px;
+}
+.input-wrapper .sp-input-field{
+    border: none;
+}
+.sp-input-field::-webkit-inner-spin-button, 
+.sp-input-field::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
